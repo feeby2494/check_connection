@@ -14,9 +14,17 @@ import datetime
 #           the local admin can know when the disconnection happened.
 #
 #           Please configure the .env file.
-#           Make sure python-dotenv is installed to the local virtual environment.
+#               EMAIL_PASSWORD=""
+#               EMAIL_SENDER=""
+#               EMAIL_RECEIVER=""
 #
-#           
+#           Email password may have to be setup with your email host like Gmail or Hotmail
+#           Also, port might have to change depending on email host.
+#
+#           Make sure python-dotenv is installed to the local virtual environment.
+#               python3 -m venv venv
+#               source venv/bin/activate
+#               pip install python-dotenv 
 #
 # ###
 
