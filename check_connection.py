@@ -8,7 +8,7 @@ import datetime
 #           In order to ensure that a particular web server is
 #           always connected to the network, I have made this simple script to 
 #           ping Google's DNS server (8.8.8.8) 15 times and email the return code and output text of the 
-#           ping command to email. This would be ran by Cron twice a day on the server itself.
+#           ping command to email. This could be ran by cronjob.
 #
 #           No email would means the server is not online. Furthermore, a local log is maintained, so 
 #           the local admin can know when the disconnection happened.
@@ -48,8 +48,6 @@ success = False
 
 if google_ping_returncode == 0:
     success = True
-
-print(f"OTP21 ping result: {google_ping_returncode}\n\n{google_ping_output}")
 
 ### 
 # 
