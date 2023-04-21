@@ -1,0 +1,3 @@
+Error Log for Google DNS Failed Pings with date
+<built-in method now of type object at 0x10ccb6b78> - Failed
+2023-04-21 13:58:32.500528 - Failed
